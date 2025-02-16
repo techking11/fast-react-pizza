@@ -1,29 +1,36 @@
 import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+
+import Button from '@/ui/Button';
+import { updateName } from '@/features/user/userSlice';
 
 function CreateUser() {
   const [username, setUsername] = useState('');
+  const dispatch = useDispatch();
 
   function handleSubmit(e) {
     e.preventDefault();
+    dispatch(updateName(username));
+    setUsername('');
   }
 
   return (
     <form onSubmit={handleSubmit}>
-        <p className="mb-4 text-sm text-stone-600 md:text-base">
+      <p className="mb-4 text-sm text-stone-600 md:text-base">
         👋 Welcome! Please start by telling us your name:
-        </p>
+      </p>
 
       <input
         type="text"
         placeholder="Your full name"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
-        className="input mb-8 w-72" 
+        className="input mb-8 w-72"
       />
 
       {username !== '' && (
         <div>
-          <button>Start ordering</button>
+          <Button type="primary">Start ordering</Button>
         </div>
       )}
     </form>

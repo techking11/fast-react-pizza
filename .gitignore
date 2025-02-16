@@ -26,4 +26,3 @@ dist-ssr
 # manuall added
 .env
 package-lock.json
-src/starter
