@@ -2,9 +2,9 @@
 
 Fast React Pizza is a modern, high-performance pizza ordering application built using React and Redux. This project showcases efficient state management, component reusability, and a smooth user experience.
 
-[![Image 1](https://github.com/techking11/fast-react-pizza/blob/main/src/assets/images/menu-page.png)](https://github.com/techking11/fast-react-pizza/blob/main/src/assets/images/menu-page.png)
-[![Image 2](https://github.com/techking11/fast-react-pizza/blob/main/src/assets/images/cart-page.png)](https://github.com/techking11/fast-react-pizza/blob/main/src/assets/images/cart-page.png)
-[![Image 3](https://github.com/techking11/fast-react-pizza/blob/main/src/assets/images/order-page.png)](https://github.com/techking11/fast-react-pizza/blob/main/src/assets/images/order-page.png)
+| Menu Page                                                                                                                                                                                     | Cart Page                                                                                                                                                                                     | Order Page                                                                                                                                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [![Menu](https://github.com/techking11/fast-react-pizza/blob/main/src/assets/images/menu-page.png)](https://github.com/techking11/fast-react-pizza/blob/main/src/assets/images/menu-page.png) | [![Cart](https://github.com/techking11/fast-react-pizza/blob/main/src/assets/images/cart-page.png)](https://github.com/techking11/fast-react-pizza/blob/main/src/assets/images/cart-page.png) | [![Order](https://github.com/techking11/fast-react-pizza/blob/main/src/assets/images/order-page.png)](https://github.com/techking11/fast-react-pizza/blob/main/src/assets/images/order-page.png) |
 
 ## Features
 
