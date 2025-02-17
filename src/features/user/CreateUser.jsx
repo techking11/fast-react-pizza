@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 
 import Button from '@/ui/Button';
-import { updateName } from '@/features/user/userSlice';
+import { updateName } from '@/store/userSlice';
 
 function CreateUser() {
   const [username, setUsername] = useState('');

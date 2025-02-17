@@ -3,9 +3,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import LinkButton from '@/ui/LinkButton';
 import Button from '@/ui/Button';
 import CartItem from '@/features/cart/CartItem';
-import { getCart } from '@/features/cart/cartSlice';
 import EmptyCart from '@/features/cart/EmptyCart';
-import { clearCart } from '@/features/cart/cartSlice';
+import { getCart } from '@/store/cartSlice';
+import { clearCart } from '@/store/cartSlice';
 
 function Cart() {
   const dispatch = useDispatch();
