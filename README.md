@@ -9,7 +9,7 @@ Fast React Pizza is a modern, high-performance pizza ordering application built 
 - Real-time order updates and tracking user location
 - Responsive design for seamless usage on all devices
 - State management using Redux for a scalable application
-- Efficient routing and navigation with React Router
+- Efficient routing, remote state management, and navigation with React Router
 
 ## Tech Stack
 
